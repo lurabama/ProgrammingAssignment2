@@ -2,7 +2,7 @@
 ## functions do
 
 ## Write a short comment describing this function
-
+## makeCacheMatrix reads a matrix as input and returns a list with functions
 makeCacheMatrix <- function(x = matrix()) {
   inv <- NULL
   
@@ -19,6 +19,7 @@ makeCacheMatrix <- function(x = matrix()) {
 }
 
 ## Write a short comment describing this function
+## CacheSolve is a function that receives a list and calculates the inverse of the Matrix
 
 cacheSolve <- function(x,...) {
   inverse <- x$getinverse()
